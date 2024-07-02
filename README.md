@@ -1,8 +1,9 @@
 # Projeto-Integrado-IV
 
 
-Cariri RH - Sistema Web
-Este repositório consiste do desenvolvimento de uma aplicação web com foco na gestão de recursos humanos. Tal projeto é parte da disciplina de “Projeto Integrado III” da Universidade Federal do Cariri (UFCA).
+##Cariri RH - Sistema Web##
+
+Este repositório consiste do desenvolvimento de uma aplicação web com foco na gestão de recursos humanos. Tal projeto é parte da disciplina de “Projeto Integrado IV” da Universidade Federal do Cariri (UFCA).
 
 Autores
 Mat:2022010446 - Abner Colman Mendonça - (@abnercoolman);
