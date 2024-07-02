@@ -7,7 +7,7 @@ Este repositório consiste do desenvolvimento de uma aplicação web com foco na
 
 Autores
 Mat:2022010446 - Abner Colman Mendonça - (@abnercoolman);
-Mat:2022012191 - Pedro Hilbert Silva Guerra - (@PedroHilbert).
+Mat:2022012191 - Pedro Hilbert Silva Guerra - (@PedroHilbert);
 Mat:2022011873 - Emanohelly Pereira de Sousa -(@emanohelly).
 
 
