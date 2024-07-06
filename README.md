@@ -25,9 +25,9 @@ Desenvolver uma plataforma, com foco na gestão de recursos humanos.
 
 ### Prints do App:
 
-| Página                                          | Página                                          | Página                                          |
-| ----------------------------------------------- | ----------------------------------------------- | ----------------------------------------------- |
-| **_Splash_**                                    | **_Login_**                                     | **_Cadastro_**                                  |
-| <img src="doc-readme/print001.png" width="200"> | <img src="doc-readme/print002.png" width="200"> | <img src="doc-readme/print003.png" width="200"> |
-| **_Home_**                                      |                                                 |                                                 |
-| <img src="doc-readme/print004.png" width="200"> |                                                 |                                                 |
+| Ícone                                                 | Página                                          | Página                                          |
+| ----------------------------------------------------- | ----------------------------------------------- | ----------------------------------------------- |
+| **_Ícone do app_**                                    | **_Splash_**                                    | **_Login_**                                     |
+| <img src="doc-readme/icone-caririrh.png" width="200"> | <img src="doc-readme/print001.png" width="200"> | <img src="doc-readme/print002.png" width="200"> |
+| **_Cadastro_**                                        | **_Home_**                                      |                                                 |
+| <img src="doc-readme/print003.png" width="200">       | <img src="doc-readme/print004.png" width="200"> |                                                 |
