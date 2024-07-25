@@ -1,5 +1,8 @@
+import 'package:caririrh/components/badgee.dart';
 import 'package:caririrh/components/funcionario_grid.dart';
+import 'package:caririrh/models/folhaPagamento.dart';
 import 'package:caririrh/models/funcionario_list.dart';
+import 'package:caririrh/utils/app_routes.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
@@ -24,7 +27,7 @@ class FucionariosOverviewPage extends StatelessWidget {
         centerTitle: true,
         actions: [
           PopupMenuButton(
-            icon: Icon(Icons.menu, color: Colors.white),
+            icon: Icon(Icons.more_vert, color: Colors.white),
             itemBuilder: (_) => [
               PopupMenuItem(
                 child: Text('Férias'),
@@ -43,7 +46,19 @@ class FucionariosOverviewPage extends StatelessWidget {
               }
               ;
             },
-          )
+          ),
+          Consumer<FolhaPagamento>(
+            child: IconButton(
+                onPressed: () {
+                  Navigator.of(context).pushNamed(AppRoutes.FOLHA_PAGAMENTO);
+                },
+                icon: Icon(Icons.paid_sharp),
+                color: Colors.white),
+            builder: (ctx, folhaPagamento, child) => Badgee(
+              value: folhaPagamento.itemsCount.toString(),
+              child: child!,
+            ),
+          ),
         ],
         backgroundColor: Colors.blue,
       ),

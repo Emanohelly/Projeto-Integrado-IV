@@ -1,5 +1,6 @@
 import 'package:caririrh/models/folhaPagamento.dart';
 import 'package:caririrh/models/funcionario_list.dart';
+import 'package:caririrh/pages/folhaPagamento_page.dart';
 import 'package:caririrh/pages/funcionarios_detail_page.dart';
 import 'package:provider/provider.dart';
 import 'package:caririrh/pages/auth_page.dart';
@@ -32,11 +33,12 @@ class MyApp extends StatelessWidget {
             fontFamily: 'Poppins',
             colorScheme: ColorScheme.fromSwatch(primarySwatch: Colors.blue)
                 .copyWith(secondary: Colors.deepOrange)),
-        home: FucionariosOverviewPage(),
+        home: AuthPage(),
         routes: {
           // AppRoutes.AUTH: (ctx) => AuthPage(),
-          // AppRoutes.HOME: (ctx) => FucionariosOverviewPage(),
+          AppRoutes.HOME: (ctx) => FucionariosOverviewPage(),
           AppRoutes.FUNCIONARIO_DETAIL: (ctx) => FuncionariosDetailPage(),
+          AppRoutes.FOLHA_PAGAMENTO: (ctx) => FolhapagamentoPage(),
         },
       ),
     );

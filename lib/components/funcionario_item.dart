@@ -1,3 +1,4 @@
+import 'package:caririrh/models/folhaPagamento.dart';
 import 'package:caririrh/models/funcionario.dart';
 import 'package:caririrh/utils/app_routes.dart';
 import 'package:flutter/material.dart';
@@ -7,6 +8,8 @@ class FuncionarioItem extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     final funcionario = Provider.of<Funcionario>(context, listen: false);
+
+    final folhaPagamento = Provider.of<FolhaPagamento>(context, listen: false);
 
     return ClipRRect(
       borderRadius: BorderRadius.circular(8),
@@ -38,7 +41,13 @@ class FuncionarioItem extends StatelessWidget {
             funcionario.nomeFuncionario,
             textAlign: TextAlign.center,
           ),
-          trailing: IconButton(onPressed: () {}, icon: Icon(Icons.paid_sharp)),
+          trailing: IconButton(
+              onPressed: () {
+                folhaPagamento.addItem(funcionario);
+                print(folhaPagamento.itemsCount);
+                // folhaPaga
+              },
+              icon: Icon(Icons.paid_sharp)),
         ),
       ),
     );
